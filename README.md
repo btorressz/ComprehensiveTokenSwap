@@ -57,7 +57,10 @@ A simple ERC20 token implementation used for testing purposes. This contract is 
 - **Solidity**: ^0.8.26
 - **OpenZeppelin Contracts**: Latest version
 - **Chainlink Price Feeds**: Integrated for price oracle functionality
-- **Remix IDE** 
+- **Remix IDE**
+
+ ## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 
 
