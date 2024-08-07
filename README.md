@@ -37,3 +37,27 @@ This is the main contract that implements all the functionalities described abov
 - Slippage Protection
 - Security Features
 
+### TestComprehensiveTokenSwap
+
+This is the test contract used to validate the functionalities of the `ComprehensiveTokenSwap` contract. It includes functions to:
+
+- Add Liquidity
+- Test Simple Swaps
+- Test Multi-Token Swaps
+- Place and Execute Limit Orders
+- Cancel Limit Orders
+- Test Flash Swaps
+
+#### TestToken
+
+A simple ERC20 token implementation used for testing purposes. This contract is included within the `TestComprehensiveTokenSwap` contract file.
+
+## Tech Stack
+
+- **Solidity**: ^0.8.26
+- **OpenZeppelin Contracts**: Latest version
+- **Chainlink Price Feeds**: Integrated for price oracle functionality
+- **Remix IDE** 
+
+
+
